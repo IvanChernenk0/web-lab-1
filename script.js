@@ -83,7 +83,7 @@ document.addEventListener('DOMContentLoaded', () => {
       modal.style.display = 'none';
     }
   };
-  setTimeout(showModal, 5000);
+  setTimeout(showModal, 60000);
 });
 
 document.addEventListener('DOMContentLoaded', () => {
