@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Резюме | Студент Кібербезпеки</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Іван Черненко</h1>
+      <p>Студент факультету кібербезпеки | Frontend Developer (JS/TS)</p>
+      <div class="theme-controls" style="text-align: right; padding: 10px">
+        <button
+          id="theme-toggle"
+          class="submit-btn"
+          style="width: auto; padding: 5px 15px"
+        >
+          Змінити тему 🌙/☀️
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <h2>Про себе</h2>
+        <p>
+          Я вивчаю кібербезпеку та активно розвиваюся у сфері веб-розробки. Маю
+          досвід створення архітектури проектів на JavaScript та TypeScript.
+          Зараз фокусуюся на вивченні React та системного адміністрування.
+        </p>
+      </section>
+
+      <section>
+        <h2>Технічні навички</h2>
+        <ul>
+          <li>
+            <strong>Frontend-розробка:</strong> Володію семантичною версткою
+            <strong>HTML5</strong> та сучасним <strong>CSS3</strong>. Розробка
+            інтерактивності за допомогою <strong>JavaScript (ES6+)</strong>.
+          </li>
+          <li>
+            <strong>Типізація та архітектура:</strong> Активне використання
+            <strong>TypeScript</strong> для створення стабільного коду та
+            розуміння принципів <strong>ООП</strong>, що допомагає в
+            проектуванні складних сервісів.
+          </li>
+          <li>
+            <strong>Сучасні бібліотеки:</strong> Вивчаю
+            <strong>React</strong> для побудови компонентної архітектури.
+          </li>
+          <li>
+            <strong>Інструментарій розробника:</strong> Робота з системою
+            контролю версій <strong>Git</strong>, середовищем
+            <strong>VS Code</strong> та терміналом.
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Досвід та ключові проєкти</h2>
+        <ul>
+          <li>
+            <strong>Lumina</strong> — веб-сервіс для кіно та серіалів. <br /><em
+              >Стек:</em
+            >
+            HTML5, CSS3, JavaScript/TypeScript. <br />Розробка інтерфейсу з
+            акцентом на сучасний UI/UX дизайн та роботу з контентом.
+          </li>
+          <li>
+            <strong>Football Theme App</strong> — Frontend-застосунок для
+            футбольної тематики. <br /><em>Стек:</em> HTML5, CSS3,
+            JavaScript/TypeScript. <br />Побудова логіки додатку, робота з
+            динамічними даними та впровадження компонентного підходу.
+          </li>
+          <li>
+            <strong>Pet-проєкти на JS/TS</strong> — Серія з 4-х завершених
+            проєктів, де відпрацьовувалися навички маніпуляції DOM та логіки на
+            чистих мовах.
+          </li>
+        </ul>
+      </section>
+
+      <section id="comments-section">
+        <h2>Відгуки роботодавців</h2>
+        <div id="comments-container">
+          <p>Завантаження відгуків...</p>
+        </div>
+      </section>
+
+      <div id="contact-modal" class="modal-overlay" style="display: none">
+        <div class="modal-content">
+          <span class="close-button">&times;</span>
+          <h2>Зворотній зв'язок</h2>
+          <form action="https://formspree.io/f/mojpnpwe" method="POST">
+            <div class="form-group">
+              <label>Ім’я:</label>
+              <input type="text" name="name" required placeholder="Ваше ім'я" />
+            </div>
+            <div class="form-group">
+              <label>Email:</label>
+              <input
+                type="email"
+                name="_replyto"
+                required
+                placeholder="example@gmail.com"
+              />
+            </div>
+            <div class="form-group">
+              <label>Номер телефону:</label>
+              <input type="tel" name="phone" required placeholder="+380..." />
+            </div>
+            <div class="form-group">
+              <label>Повідомлення:</label>
+              <textarea
+                name="message"
+                rows="4"
+                placeholder="Ваш текст..."
+              ></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Відправити</button>
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <section>
+        <h3>Контакти</h3>
+        <ul>
+          <li><strong>GitHub:</strong> <a href="#">github.com</a></li>
+          <li><strong>Email:</strong> <a href="#">contact@example.com</a></li>
+        </ul>
+      </section>
+    </footer>
+  </body>
+</html>
